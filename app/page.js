@@ -9,12 +9,7 @@ const Home = () => {
   return (
     // <div className="flex justify-center gap-5">
     //   <h1>Home</h1>
-    //   <button
-    //     className="py-3 px-6 rounded-md bg-purple-500"
-    //     onClick={() => router.push("about")}
-    //   >
-    //     Go To About
-    //   </button>
+
     // </div>
 
     <div className="px-8 py-4">
@@ -24,11 +19,13 @@ const Home = () => {
       </Head>
 
       <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50 text-center">
-        <h1 className="text-4xl font-bold text-blue-500 mb-4">Welcome to Our Website</h1>
+        <h1 className="text-4xl font-bold text-blue-500 mb-4">
+          Welcome to Our Website
+        </h1>
 
         <p className="text-lg text-gray-700 max-w-2xl mb-6">
-          Explore our features and learn more about what we offer. We are here to
-          serve you with the best solutions.
+          Explore our features and learn more about what we offer. We are here
+          to serve you with the best solutions.
         </p>
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -46,6 +43,12 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <button
+          className="py-3 px-6 mt-5 rounded-md bg-purple-500"
+          onClick={() => router.push("about")}
+        >
+          Go To About
+        </button>
       </main>
     </div>
   );

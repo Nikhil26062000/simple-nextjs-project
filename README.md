@@ -3,6 +3,6 @@
 -  Routing
 -  Nested Routing
 -  Link 
--  useRoute() hook
+-  useRouter() hook
 
 
