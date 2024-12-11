@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <ul className="flex justify-center my-10 ">
-        <div className="px-6 gap-5 py-3 rounded-md bg-green-500 text-white flex justify-center text-[14px]">
+        <div className="px-6 gap-5 py-3 rounded-md bg-purple-500 text-white flex justify-center text-[14px]">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/users">Users</Link>
